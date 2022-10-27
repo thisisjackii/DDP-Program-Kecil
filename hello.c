@@ -1,3 +1,4 @@
-void main(){
-	printf("hello\n");
+void main()
+{
+    printf("hello\n");
 }
