@@ -1,10 +1,12 @@
+#include <stdio.h>
+
 int main()
 {
-    /* kamus */
-    int i,j;
-    /* Algoritma */
-    i = 3;
-    j = i++;
-    printf("Nilai i : %d\nNilai j : %d\n", ++i, j);
-    return 0;
+	int i,j;
+	
+	i = 3;
+	j = i++; // j = i; assign dlu baru dijumlah i+1 
+
+	printf("Nilai i : %d\nNilai j : %d\n",++i,j);
+	return 0;
 }

@@ -1,17 +1,15 @@
+#include <stdio.h>
 int main()
 {
-/* Kamus */
-int N;
-int i = 1;
-/* Program */
-printf("Nilai N >0 = "); /* Inisialisasi */
-scanf("%d", &N);
-printf("Print i dengan WHILE (ringkas) : \n");
-while (i <= N) /* Kondisi pengulangan */
-{
-printf("%d \n",i); /* Proses */
-i++; /* Next elemen */
-} /* ( i > N ) */
-printf("Akhir program \n");
-return 0;
+	int N;
+	int i = 1;
+	printf("Nilai N > 0 = ");
+	scanf("%d", &N);
+	printf("Print i dengan WHILE (ringkas) : \n");
+	while (i <= N){
+		printf("%d \n",i);
+		i++;
+	}
+	printf("Akhir program \n"); 
+	return 0;
 }

@@ -1,12 +1,11 @@
+#include <stdio.h>
 int main()
 {
-    /* Kamus */
-    char cc;
-    /* Program */
-    printf("Hello\n");
-    printf ("Baca 1 karakter : ");
-    scanf ("%c", cc);
-    printf("%c", cc);
-    printf ("Bye\n ");
-    return 0;
+	char cc;
+	printf("Hello\n");
+	printf ("Baca 1 karakter : "); 
+	scanf ("%c", &cc);
+	printf("%c\n", cc);
+	printf ("Bye\n "); 
+	return 0;
 }

@@ -1,22 +1,22 @@
+#include <stdio.h>
 int main()
 {
-/* Kamus */
-int i,N;
-/* Program */
-printf("Nilai N >0 = "); /* Inisialisasi */
-scanf("%d",&N);
-i=1; /* First elemen */
-printf("Print i dengan ITERATE : \n");
-for (;;)
-{
-printf("%d \n",i); /* Proses */
-if (i==N) /* Kondisi berhenti */
-break;
-else
-{
-}
-i++; /* Next elemen */
-} /* i == N */
-printf("Akhir program \n");
-return 0;
+	int i,N;
+	printf("Nilai N > 0 = "); 
+	scanf("%d",&N);
+	i=1;
+	printf("Print i dengan ITERATE : \n");
+	for (;;)
+	{
+		printf("%d \n",i);
+		if (i==N) 
+			break;
+		else
+		{
+			i++;	
+		}
+
+	}
+	printf("Akhir program \n"); 
+	return 0;
 }
